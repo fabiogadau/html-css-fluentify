@@ -188,7 +188,7 @@ h2.big {
   padding-bottom: 20px;
   margin-bottom: 20px;
   color: #7bbb00;
-  font-size: 180%;
+  font-size: 170%;
 }
 
 .info-data-heading::after {
@@ -211,6 +211,19 @@ h2.big {
 #plan {
   width: 1000px;
   margin: 0 auto;
+  padding: 40px 0;
+}
+
+.plan-1 {
+  padding-right: 50px;
+}
+
+.plan-2 {
+  padding-left: 50px;
+}
+
+.w-50 a {
+  color: #5586bc;s
 }
 
 /* Help */
