@@ -253,7 +253,7 @@ h2.big {
 }
 
 .structure-nav {
-  margin-right: 450px;
+  margin-right: 400px;
   color: black;
   font-size: 20px;
 }
@@ -274,4 +274,5 @@ h2.big {
   padding-bottom: 0;
   /*border-bottom: 1px solid grey;*/
   text-decoration: underline;
+  word-spacing: 50px;
 }
