@@ -108,7 +108,11 @@ h2.big {
 
 .header-nav .header-logo,
 .header-nav .header-nav-center,
-.header-nav .header-nav-right {
+.header-nav .header-nav-right,
+#structure .structure-nav,
+#structure .structure-text1,
+#structure .structure-text2,
+#structure .structure-select {
   float: left;
 }
 
@@ -223,7 +227,7 @@ h2.big {
 }
 
 .w-50 a {
-  color: #5586bc;s
+  color: #5586bc;
 }
 
 /* Help */
@@ -243,3 +247,30 @@ h2.big {
 }
 
 /* Structure styles here*/
+#structure {
+  background: lightgrey;
+  padding: 40px 5%;
+}
+
+.structure-nav {
+  margin-right: 450px;
+  color: black;
+  font-size: 20px;
+}
+
+.structure-text1,
+.structure-text2 {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.structure-nav,
+.structure-text1,
+.structure-text2 {
+  line-height: 4;
+}
+
+#structure .structure-text2 {
+  padding-bottom: 0;
+  border-bottom: 1px solid grey;
+}
